@@ -4,7 +4,9 @@ import setuptools
 
 DIST_NAME = 'places_lk'
 VERSION = "1.0.0"
-DESCRIPTION = "A utility library for returning the location (latitude and longitude) of places in Sri Lanka."
+DESCRIPTION = (
+    "A utility library for returning the location of places in Sri Lanka."
+)
 INSTALL_REQUIRES = [
     'utils-nuuuwan',
 ]
