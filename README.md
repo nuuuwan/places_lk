@@ -1,6 +1,6 @@
 # Places in Sri Lanka (places_lk)
 
-This is a utility library for returning the location (latitude and longitude) of places in Sri Lanka.
+A utility library for returning the location (latitude and longitude) of places in Sri Lanka.
 
 ## Usage
 
