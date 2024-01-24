@@ -1,4 +1,3 @@
-import sys
 from places_lk import search_places
 
 if __name__ == '__main__':
