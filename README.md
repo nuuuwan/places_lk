@@ -5,9 +5,9 @@ A utility library for returning the location (latitude and longitude) of places 
 ## Usage
 
 ```python
-from places_lk import get_places
+from places_lk import search_places
 
-places = get_places('Colombo', fuzzy=True, limit=1)
+places = search_places('Colombo', limit=1)
 print(places)
 
 >> [{'name': 'Colombo', 'latlng': [6.93194, 79.84778]}]
