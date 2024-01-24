@@ -97,8 +97,8 @@ class PlaceInfo:
             )
         lines.extend([']', ''])
 
-        PLACES_INFO_LIST_PATH = os.path.join(
-            'src', 'places_lk', 'core', 'PLACES_INFO_LIST.py'
+        PLACE_INFO_LIST_PATH = os.path.join(
+            'src', 'places_lk', 'core', 'PLACE_INFO_LIST.py'
         )
-        File(PLACES_INFO_LIST_PATH).write_lines(lines)
-        log.info(f'Wrote {n} places to {PLACES_INFO_LIST_PATH}.')
+        File(PLACE_INFO_LIST_PATH).write_lines(lines)
+        log.info(f'Wrote {n} places to {PLACE_INFO_LIST_PATH}.')
